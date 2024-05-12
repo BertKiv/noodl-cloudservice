@@ -5,8 +5,8 @@ services:
     restart: unless-stopped
     image: mongo:latest
     container_name: noodlapp-mongodb
-    ports:
-      - "27017:27017"
+    # ports:
+    #   - "27017:27017"
     volumes:
       - mongodb-data:/data/noodlapp-db
     environment:

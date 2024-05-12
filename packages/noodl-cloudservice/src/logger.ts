@@ -1,5 +1,7 @@
 // The logger that is needed by the cloud functions
 // it passes the logs to the parse server logger
+import { setImmediate } from 'timers';
+
 export class Logger {
   noodlServer: any;
 

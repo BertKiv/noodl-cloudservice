@@ -1,6 +1,7 @@
 import { getCachedContext, scheduleContextCachePurge } from './cfcontext';
 import { CFVersion } from './function-deploy';
 import { Logger } from './logger';
+import { setImmediate } from 'timers';
 
 // The logger that is needed by the cloud functions
 // it passes the logs to the parse server logger

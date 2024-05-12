@@ -120,3 +120,5 @@ out
 .env*
 
 packages/noodl-cloudservice/dist
+
+.history
