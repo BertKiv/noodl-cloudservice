@@ -15,7 +15,8 @@ boto3
 minio
 autogen
 autogenra
-numpy pandas
+numpy 
+pandas
 matplotlib
 seaborn
 scikit-learn

@@ -23,12 +23,12 @@
     "node-fetch": "2.6.7",
     "parse-server": "^4.10.4",
     "parse-server-gcs-adapter": "git+https://github.com/noodlapp/noodl-parse-server-gcs-adapter.git",
-    "winston-mongodb": "^5.1.0",
-    "timers": "^0.1.1"
+    "timers": "^0.1.1",
+    "winston-mongodb": "^5.1.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/node": "^20.3.1",
+    "@types/node": "^20.12.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.2.2"
   }
