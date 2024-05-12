@@ -23,8 +23,8 @@ services:
     environment:
       NODE_ENV: production
       PORT: 3000
-      MASTER_KEY: mymasterkey
-      APP_ID: myappid
+      MASTER_KEY: idealadmin
+      APP_ID: webfabrik
       DATABASE_URI: mongodb://yourusername:yourpassword@mongodb:27017/noodlapp?authSource=admin
       PUBLIC_SERVER_URL: http://localhost:3000
     ports:
